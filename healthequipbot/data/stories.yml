@@ -28,3 +28,11 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: placing an order
+  steps:
+  - intent: order_equipment
+    entities:
+    - product: "wheelchair"
+  - action: action_order_confirmation
+  # - action: action_order_product

@@ -89,3 +89,41 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: order_equipment
+  examples: |
+    - I would like to place an order for a [wheelchair](product)
+    - Can I order a [nebulizer](product) from you?
+    - I need to order a [CPAP machine](product), can you help me with that?
+    - I'm interested in purchasing a [hospital bed](product), how do I place an order?
+    - How can I order a [portable oxygen concentrator](product) from your company?
+    - I would like to buy a [walker](product), can I place an order with you?
+    - What is the process for ordering a [mobility scooter](product)?
+    - Can I place an order for a [ventilator](product) through your website?
+    - I need to order some [wound care supplies](product), how do I go about it?
+    - Can you help me place an order for a [lift chair](product)?
+    - I want to purchase a [blood glucose meter](product).
+    - How do I order a [breast pump](product)?
+    - I need to place an order for [incontinence supplies](product).
+    - Can you assist me in ordering a [hearing aid](product)?
+    - What is the process for ordering [disposable gloves](product)?
+    - I'd like to order a [home hemodialysis machine](product).
+    - Can I place an order for a [compression stocking](product) on your website?
+    - I'm interested in purchasing a [portable ultrasound machine](product), how do I proceed?
+    - Can you help me order a [motorized wheelchair](product)?
+    - I need to purchase [diabetic test strips](product), can you help me with that?
+    - I want to order a [folding cane](product), do you have those available?
+    - How can I place an order for [ostomy bags](product)?
+    - Can I order a [wheelchair ramp](product) through your company?
+    - I'd like to buy a [knee scooter](product), how do I place an order?
+    - How can I order a [hot and cold therapy unit](product)?
+    - Can you help me order a [portable suction machine](product)?
+    - What's the process for ordering [dialysis tubing](product)?
+    - I want to order a [pulse oximeter](product), can you assist me with that?
+    - Can I place an order for [electronic muscle stimulation equipment](product) through your website?
+    - How do I purchase [pressure relief cushions](product)?
+
+entities:
+  - product
+
+

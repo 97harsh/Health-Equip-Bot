@@ -8,6 +8,20 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - order_equipment
+
+entities:
+  - product
+
+slots:
+  product:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: product
+
+actions:
+  - action_order_confirmation
 
 responses:
   utter_greet:
